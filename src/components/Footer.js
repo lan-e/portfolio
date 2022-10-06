@@ -1,5 +1,5 @@
 import "./FooterStyles.css";
-
+import { Link } from "react-router-dom";
 import React from "react";
 import {
   FaHome,
@@ -8,6 +8,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -53,10 +54,30 @@ const Footer = () => {
         <div className="right">
           <h4>O MENI</h4>
           <p>
-            Studentica sam Sveučilišta Sjever. Fokusiram se na programiranje, no
-            osim toga zanima me 3D modeliranje, izrada videoigara i fotografija.
+            Studentica sam Sveučilišta Sjever. Osim programiranja zanima me 3D
+            modeliranje i izrada videoigara.
           </p>
           <div className="social">
+            <a
+              href="https://www.linkedin.com/in/nela-duranec/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "white", marginRight: "16px" }}
+              />
+            </a>
+            <a
+              href="https://github.com/lan-e"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub
+                size={30}
+                style={{ color: "white", marginRight: "16px" }}
+              />
+            </a>
             <a
               href="https://www.facebook.com/nela.duranec/"
               target="_blank"
@@ -77,17 +98,10 @@ const Footer = () => {
                 style={{ color: "white", marginRight: "16px" }}
               />
             </a>
-            <a
-              href="https://www.linkedin.com/in/nela-duranec/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin
-                size={30}
-                style={{ color: "white", marginRight: "16px" }}
-              />
-            </a>
           </div>
+          <Link to="/contact">
+            <button className="btn">Kontakt</button>
+          </Link>
         </div>
       </div>
     </div>

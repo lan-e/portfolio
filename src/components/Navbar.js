@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1 className="align">
-          Portfolio
+          Portfolio lan-e
           <img src="me.png" width="50px" height="auto" alt="myIcon" />
         </h1>
       </Link>

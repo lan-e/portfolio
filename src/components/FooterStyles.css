@@ -53,3 +53,8 @@ p{
         grid-gap: 40px;
     }
 }
+
+.btn {
+    margin-top: 20px;
+    width: 170px;
+}
