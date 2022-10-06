@@ -25,7 +25,7 @@ const Navbar = () => {
       <Link to="/">
         <h1 className="align">
           Portfolio
-          <img src="me.png" width="50px" height="auto" />
+          <img src="me.png" width="50px" height="auto" alt="myIcon" />
         </h1>
       </Link>
       <ul class={click ? "nav-menu active" : "nav-menu"}>
