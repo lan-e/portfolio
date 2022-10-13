@@ -1,9 +1,9 @@
 import "./AboutContentStyles.css";
 
 import React from "react";
-
-import body from "../assets/body.png";
-import react from "../assets/ReactJS.png";
+import me from "../assets/ja1.jpg";
+/*import body from "../assets/body.png";
+import react from "../assets/ReactJS.png";*/
 
 const AboutContent = () => {
   return (
@@ -22,14 +22,15 @@ const AboutContent = () => {
       </div>
 
       <div className="right">
-        <div className="img-container">
+        <img src={me} className="img" alt="me" />
+        {/*<div className="img-container">
           <div className="img-stack top">
             <img src={body} className="img" alt="body" />
           </div>
           <div className="img-stack bottom">
             <img src={react} className="img" alt="react" />
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );

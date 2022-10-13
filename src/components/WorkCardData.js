@@ -25,7 +25,7 @@ const ProjectCardData = [
     imgsrc: pro3,
     title: "React.js",
     text: "Portfolio",
-    view: "https://abiding-lettuce.surge.sh/",
+    view: "https://lan-e.netlify.app/",
     p: "Portfolio, React.js, Surge",
   },
   {
@@ -37,10 +37,10 @@ const ProjectCardData = [
   },
   {
     imgsrc: pro5,
-    title: "Vue.js",
+    title: "...u nastajanju",
     text: "emiFOX",
-    view: "https://sopgbakale.netlify.app/",
-    p: "Portfolio, Vue.js",
+    view: "",
+    p: "",
   },
 ];
 
