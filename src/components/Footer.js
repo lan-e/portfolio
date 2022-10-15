@@ -15,40 +15,36 @@ const StyledFaFacebook = styled(FaFacebook)`
   color: white;
   &:hover {
     color: #4267b2;
-    transform: scale(0.93);
   }
   &:active {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
 `;
 const StyledFaInstagram = styled(FaInstagram)`
   color: white;
   &:hover {
     color: pink;
-    transform: scale(0.93);
   }
   &:active {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
 `;
 const StyledFaGithub = styled(FaGithub)`
   color: white;
   &:hover {
     color: grey;
-    transform: scale(0.93);
   }
   &:active {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
 `;
 const StyledFaLinkedin = styled(FaLinkedin)`
   color: white;
   &:hover {
     color: #0a66c2;
-    transform: scale(0.93);
   }
   &:active {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
 `;
 
@@ -141,8 +137,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="middle">
-        <div>© Sva prava rezervirana</div>
-        <div>2022</div>
+        <div>©2022 All rights reserved</div>
       </div>
     </div>
   );

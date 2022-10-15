@@ -3,6 +3,9 @@ import "./WorkCardStyles.css";
 import React from "react";
 
 const WorkCard = (props) => {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <div className="project-card">
       <img src={props.imgsrc} alt="descPicture" />
@@ -15,7 +18,7 @@ const WorkCard = (props) => {
             type="button"
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = props.view;
+              openInNewTab(props.view);
             }}
           >
             Otvori
