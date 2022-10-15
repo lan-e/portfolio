@@ -141,7 +141,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="middle">
-        <div>© Sva prava rezervirana</div>
+        <div>© Sva prava pridržana</div>
         <div>2022</div>
       </div>
     </div>
