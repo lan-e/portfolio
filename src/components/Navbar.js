@@ -4,8 +4,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import { useEffect } from "react";
 const Navbar = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 

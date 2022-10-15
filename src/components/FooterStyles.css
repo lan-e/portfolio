@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    padding: 96px 0;
+    padding: 64px 0 64px 15px;
     background-color: #111;
 }
 
@@ -38,7 +38,17 @@
 .social{
     margin-top: 16px;
 }
+a:active, a:focus{
+    outline: none;
+}
 
+.scale{
+    transform: scale(0.93);
+}
+
+.scale:active{
+    transform: scale(0.89)
+}
 h4{
     font-size: 18px;
     padding-bottom: 12px;
@@ -47,14 +57,28 @@ p{
     font-size: 18px;
 }
 
+.btn {
+    margin-top: 20px;
+    width: 170px;
+}
+
+.middle{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    height: 7vh;
+    width: 99vw;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
 @media screen and (max-width: 640px) {
     .footer-container{
         grid-template-columns: 1fr;
         grid-gap: 40px;
     }
-}
-
-.btn {
-    margin-top: 20px;
-    width: 170px;
 }
