@@ -23,7 +23,7 @@ const StyledFaFacebook = styled(FaFacebook)`
 const StyledFaInstagram = styled(FaInstagram)`
   color: white;
   &:hover {
-    color: pink;
+    color: grey;
   }
   &:active {
     transform: scale(0.9);
@@ -95,8 +95,8 @@ const Footer = () => {
           <div className="right">
             <h4>O MENI</h4>
             <p>
-              Studentica sam Sveučilišta Sjever. Osim programiranja zanima me 3D
-              modeliranje i izrada videoigara.
+              Studentica sam Sveučilišta Sjever. Osim programiranja zanima me
+              fotografija, 3D modeliranje i izrada videoigara.
             </p>
             <div className="social">
               <a
