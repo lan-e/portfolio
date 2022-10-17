@@ -12,13 +12,16 @@ const AboutContent = () => {
         <h1>Nela Đuranec</h1>
         <p>
           Studentica sam Sveučilišta Sjever. Fokusiram se na programiranje, osim
-          toga zanima me 3D modeliranje i izrada videoigara.
+          toga zanima me 3D modeliranje i izrada videoigara. Imam iskustva s
+          radom u Adobe programima - InDesign, Illustrator, Photoshop i ostalim
+          programima - Blender, DaVinci Resolve, Sony Vegas.
         </p>
         <p>
           Zanima me frontend developing. Znam osnove HTML, CSS i JS te React
           pomoću kojeg je napravljen ovaj Portfolio. U posljednjem projektu
           koristila sam Sanity, Stripe i Netlify.
         </p>
+        <p>Osobine: marljivost, perfekcionizam, organiziranost, timski rad.</p>
       </div>
 
       <div className="right">

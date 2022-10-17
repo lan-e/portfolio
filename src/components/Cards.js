@@ -4,6 +4,7 @@ import p2 from "../assets/windmill.png";
 import p3 from "../assets/page2.png";
 import p4 from "../assets/logo1.png";
 import p5 from "../assets/plakat.png";
+import p6 from "../assets/sopg.jpg";
 
 import React from "react";
 
@@ -66,6 +67,26 @@ const Cards = () => {
               e.preventDefault();
               window.location.href =
                 "https://drive.google.com/file/d/1kSuGrzEQun3uS7ilog6Z8C2Un2lruZ1I/view?usp=sharing";
+            }}
+          >
+            OTVORI
+          </div>
+        </div>
+
+        <div className="card">
+          <h3>Grafički dizajn</h3>
+          <span className="bar"></span>
+          <p className="btc">Izrada logotipa</p>
+          <img className="ostaliProjekti" src={p6} alt="plakat2" />
+          <p>SOPG Bakale</p>
+          <p>Adobe Illustrator</p>
+          <p>2021.</p>
+          <div
+            className="btn"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://drive.google.com/file/d/1c_3TIRQoOLLQ_vPf9MGfeGTa3xL6ngSu/view?usp=sharing";
             }}
           >
             OTVORI

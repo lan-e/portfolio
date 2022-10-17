@@ -26,7 +26,7 @@ const ProjectCardData = [
     title: "React.js",
     text: "Portfolio",
     view: "https://lan-e.netlify.app/",
-    p: "Portfolio, React.js, Surge",
+    p: "Portfolio, React.js, Netlify",
   },
   {
     imgsrc: pro4,
@@ -39,7 +39,7 @@ const ProjectCardData = [
     imgsrc: pro5,
     title: "...u nastajanju",
     text: "emiFOX",
-    view: "",
+    view: "https://www.facebook.com/emifox.makeup",
     p: "",
   },
 ];
