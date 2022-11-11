@@ -8,6 +8,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaGithub,
+  FaYoutube,
 } from "react-icons/fa";
 /*import logo from "../assets/logo.png";*/
 import styled from "styled-components";
@@ -47,7 +48,15 @@ const StyledFaLinkedin = styled(FaLinkedin)`
     transform: scale(0.9);
   }
 `;
-
+const StyledFaYoutube = styled(FaYoutube)`
+  color: white;
+  &:hover {
+    color: #ff0000;
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+`;
 const Footer = () => {
   return (
     <div>
@@ -126,6 +135,13 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <StyledFaInstagram size={30} style={{ marginRight: "16px" }} />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCSNk9SHQk9WF0uuKhFgWsWg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <StyledFaYoutube size={30} style={{ marginRight: "16px" }} />
               </a>
             </div>
             {/*<img
