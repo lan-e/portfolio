@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 naslov="O MENI" text="Podaci" />
+      <HeroImg2 naslov="O MENI" />
       <AboutContent />
       <Footer />
     </div>

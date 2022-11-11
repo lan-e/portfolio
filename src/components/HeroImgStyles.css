@@ -11,7 +11,9 @@
     background-position: center;
     object-fit: cover;
 }
-
+.font{
+    font-family: 'Ode To Idle Gaming';
+}
 .mask::after{
     content: "";
     width: 100%;

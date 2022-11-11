@@ -24,7 +24,7 @@
     font-size: 15px;
     font-weight: 500;
     outline: none;
-    font-family: 'Press Start 2P';
+    font-family: 'Ode To Idle Gaming';
 }
 
 .nav-menu li a:hover{
@@ -68,10 +68,11 @@
     }
 }
 
+/*PORTFOLIO kraj ikone
 .align{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Press Start 2P';
     font-size: 20px;
-}
+}*/

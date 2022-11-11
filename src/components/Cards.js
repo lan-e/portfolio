@@ -19,8 +19,10 @@ const Cards = () => {
           <p className="btc">Jazz festival</p>
           <img className="ostaliProjekti" src={p1} alt="plakat1" />
           <p>plakat za izmišljeni festival</p>
+
           <p>Adobe Illustrator</p>
           <p>2020.</p>
+
           <div
             className="btn"
             onClick={(e) => {
@@ -90,7 +92,7 @@ const Cards = () => {
           <p>SOPG Bakale</p>
           <p>Adobe Illustrator</p>
           <p>2022.</p>
-          <div
+          {/*<div
             className="btn"
             onClick={(e) => {
               e.preventDefault();
@@ -102,7 +104,7 @@ const Cards = () => {
             }}
           >
             OTVORI
-          </div>
+          </div>*/}
         </div>
 
         <div className="card">
@@ -113,7 +115,7 @@ const Cards = () => {
           <p>logo iz inicijala</p>
           <p>Adobe Illustrator</p>
           <p>2022.</p>
-          <div
+          {/*<div
             className="btn"
             onClick={(e) => {
               e.preventDefault();
@@ -125,7 +127,7 @@ const Cards = () => {
             }}
           >
             OTVORI
-          </div>
+          </div> */}
         </div>
 
         <div className="card">
@@ -136,7 +138,7 @@ const Cards = () => {
           <p>western</p>
           <p>Blender, Substance Painter</p>
           <p>2022.</p>
-          <div
+          {/*<div
             className="btn"
             onClick={(e) => {
               e.preventDefault();
@@ -148,7 +150,7 @@ const Cards = () => {
             }}
           >
             OTVORI
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>

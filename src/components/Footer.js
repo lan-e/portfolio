@@ -9,7 +9,7 @@ import {
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa";
-import logo from "../assets/logo.png";
+/*import logo from "../assets/logo.png";*/
 import styled from "styled-components";
 const StyledFaFacebook = styled(FaFacebook)`
   color: white;
@@ -82,14 +82,14 @@ const Footer = () => {
                 <p>Varaždin, 42000</p>
               </div>
             </div>
-            <iframe
+            {/*<iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11025.869278026601!2d16.31861406977539!3d46.300555800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4768aacdc21cf7e3%3A0x13d2ea5be6bf9546!2sUl.%20104.%20brigade%203%2C%2042000%2C%20Vara%C5%BEdin!5e0!3m2!1shr!2shr!4v1657801450613!5m2!1shr!2shr"
               style={{ width: 400, height: 300, border: 0 }}
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               title="mapa"
-            ></iframe>
+            ></iframe>*/}
           </div>
 
           <div className="right">
@@ -128,17 +128,16 @@ const Footer = () => {
                 <StyledFaInstagram size={30} style={{ marginRight: "16px" }} />
               </a>
             </div>
-            <img
+            {/*<img
               alt="logo"
               src={logo}
               style={{ margin: "80px 0 0 0", width: "250px", height: "auto" }}
-            />
+            />*/}
           </div>
         </div>
       </div>
       <div className="middle">
-        <div>© All rights reserved</div>
-        <div>2022</div>
+        <div>©2022 Nela Đuranec</div>
       </div>
     </div>
   );

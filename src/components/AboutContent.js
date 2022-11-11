@@ -1,7 +1,7 @@
 import "./AboutContentStyles.css";
 
 import React from "react";
-import me from "../assets/ja1.jpg";
+import me from "../assets/ja1.png";
 /*import body from "../assets/body.png";
 import react from "../assets/ReactJS.png";*/
 
@@ -24,11 +24,14 @@ const AboutContent = () => {
         <p>
           Imam iskustva s radom u Adobe programima - InDesign, Illustrator,
           Photoshop, Lightroom i ostalim programima - Blender, DaVinci Resolve,
-          Sony Vegas.
+          Sony Vegas. U suradnji s kolegama osmislila sam i izradila
+          dokumentarni film "Živjeti ples", med s okusom "Uvrnuta košnica",
+          podcast "Priče iz šupe" te videoreklamu za energetske bombone
+          "Redill".
         </p>
         <p>
           Osobine: marljivost, perfekcionizam, pouzdanost, organiziranost,
-          timski rad.
+          timski rad, svestranost.
         </p>
       </div>
 
