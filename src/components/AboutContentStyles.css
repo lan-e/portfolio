@@ -9,7 +9,7 @@
 }
 
 .about .left{
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: 16px;
     max-width: 350px;
@@ -18,10 +18,10 @@
     margin: 18px 0;
 }
 
-.about .right{
+.about .center{
     max-width: 700px;
 }
-.right .img-container{
+.center .img-container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
@@ -29,16 +29,16 @@
     text-align: center;
 }
 
-.right .img{
+.center .img{
     max-width: 90%;
 }
-.right .top{
+.center .top{
     grid-column: 1 / span 8;
     grid-row: 1;
     padding-top: 20%;
     z-index: 6;
 }
-.right .bottom{
+.center .bottom{
     grid-column: 4 / -1;
     grid-row: 1;
     z-index: 5;
