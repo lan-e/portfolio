@@ -13,6 +13,7 @@
 }
 .font{
     font-family: 'Ode To Idle Gaming';
+    letter-spacing: 0.08cm;
 }
 .mask::after{
     content: "";

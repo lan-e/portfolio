@@ -25,6 +25,7 @@
     font-weight: 500;
     outline: none;
     font-family: 'Ode To Idle Gaming';
+    letter-spacing: 0.04cm;
 }
 
 .nav-menu li a:hover{
