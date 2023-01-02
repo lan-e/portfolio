@@ -1,9 +1,10 @@
 /*import pro1 from "../assets/project1.png";
 import pro2 from "../assets/project2.png";*/
-import pro3 from "../assets/project3.png";
-import pro4 from "../assets/project4.png";
-import pro5 from "../assets/project5.png";
-
+import port1 from "../assets/port1.png";
+import sopg from "../assets/sopg.png";
+import emifox from "../assets/emifox.png";
+import port2 from "../assets/port2.png";
+import figma from "../assets/dontwaste.png";
 const ProjectCardData = [
   /*{
     imgsrc: pro1,
@@ -22,25 +23,42 @@ const ProjectCardData = [
       "interaktivna stranica  s tabovima, učitavanje podataka bez refreshanja, BMI izračun, izvlačenje podataka iz baza, registracija i prijava, PHP",
   },*/
   {
-    imgsrc: pro3,
+    imgsrc: port1,
     title: "React.js",
-    text: "Portfolio",
+    text: "Portfolio 1",
     view: "https://lan-e.netlify.app/",
     p: "Portfolio, React.js, Netlify",
   },
+
   {
-    imgsrc: pro4,
+    imgsrc: sopg,
     title: "Next.js",
     text: "SOPG Bakale",
     view: "https://sopgbakale.netlify.app/",
     p: "Webshop, React.js, Next.js, Stripe, Sanity, Netlify",
   },
   {
-    imgsrc: pro5,
+    imgsrc: emifox,
     title: "...u nastajanju",
     text: "emiFOX",
     view: "https://www.facebook.com/emifox.makeup",
     p: "",
+  },
+  {
+    imgsrc: port2,
+    title: "Figma",
+    text: "Portfolio 2",
+    view:
+      "https://www.figma.com/proto/3OIM3RH11zl6XAF9KU3PqZ/My-portfolio?node-id=103%3A28&scaling=min-zoom&page-id=103%3A27&starting-point-node-id=103%3A28",
+    p: "Web dizajn",
+  },
+  {
+    imgsrc: figma,
+    title: "Figma",
+    text: "don't waste. donate.",
+    view:
+      "https://www.figma.com/proto/H15igXIS6OTLH5uDNd5QLd/don't-waste.-donate.?node-id=43%3A70&scaling=min-zoom&page-id=1%3A3&starting-point-node-id=43%3A70&show-proto-sidebar=1",
+    p: "Wed dizajn, stranica za izmišljenu organizaciju",
   },
 ];
 
